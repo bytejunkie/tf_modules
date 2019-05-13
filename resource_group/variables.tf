@@ -3,7 +3,3 @@ variable "resource_group_name" {
     type = "string"
 }
 
-variable "rg_tags" {
-    description = "rg tags in a map"
-    type = "map"
-}
