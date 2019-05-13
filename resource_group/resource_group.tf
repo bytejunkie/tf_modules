@@ -3,6 +3,6 @@ resource "azurerm_resource_group" "resource_group" {
   location = "North Europe"
 
   tags = {
-    {$var.rg_tags}
+    ${var.rg_tags}
   }
 }
