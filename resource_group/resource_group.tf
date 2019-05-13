@@ -5,6 +5,6 @@ resource "azurerm_resource_group" "resource_group" {
   tags = {
     ${element(keys(var.rg_tags), count.index)} =     ${element(values(var.rg_tags), count.index)} 
 
-  count = ${length(keys(var.rg_tags))}
+    count = ${length(keys(var.rg_tags))}
   }
 }

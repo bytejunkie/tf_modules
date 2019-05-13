@@ -6,5 +6,5 @@ variable "resource_group_name" {
 variable "rg_tags" {
     description = "tags to apply to resource group"
     type = "map"
-    default = []
+    default = {}
 }
