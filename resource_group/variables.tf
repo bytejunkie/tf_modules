@@ -1,6 +1,7 @@
-variable "resource_group_name" {
+variable "resource_group_names" {
     description = "resource group name"
-    type = "string"
+    type = "list"
+    default = []
 }
 
 variable "tags" {
