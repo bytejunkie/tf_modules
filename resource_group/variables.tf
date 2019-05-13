@@ -6,5 +6,7 @@ variable "resource_group_name" {
 variable "tags" {
     description = "tags to apply to resource group"
     type = "map"
-    default = {}
+    default = {
+        tag1 = "tag1"
+    }
 }
