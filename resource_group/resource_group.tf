@@ -5,4 +5,5 @@ resource "azurerm_resource_group" "resource_group" {
   tags = var.tags
 
   count = length(var.resource_group_names)
+  
 }
